@@ -1,29 +1,30 @@
+/*styles everything, unless otherwise styled*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*styles everything in the body*/
 body {
     background-color: #d9dcd6;
 }
-
+/*styles the header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*styles the heading in the header*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*styles the seo letters inside the heading in the header, making them a slighlty darker colour*/
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*styles the nav inside the header*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,25 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*styles the unordered list element inside the nav*/
 header nav ul {
     list-style-type: none;
 }
-
+/*styles the individual list items inside the nav*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*styles all links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*styles all text*/
 p {
     font-size: 16px;
 }
-
+/*styles the hero*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,56 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*when assigned this class, elements will float left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*when assigned this class, elements will float right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*styles the services class*/
 .services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-cost,
-.benefit-brand,
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost h3,
-.benefit-brand h3,
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img, 
-.benefit-cost img, 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*styles the services class articles individually*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing  {
@@ -118,27 +86,55 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*styles images for the articles in the services class*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img   {
     max-height: 200px;
 }
-
+/*styles headings for the articles in the services class*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*styles the benefits class*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*styles headings for the articles in the benefits class*/
+.benefit-cost h3,
+.benefit-brand h3,
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*styles images for the articles in the benefits class*/
+.benefit-brand img, 
+.benefit-cost img, 
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Sets styling for footer*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*styles headings for the footer*/
 footer h2 {
     font-size: 20px;
 }
