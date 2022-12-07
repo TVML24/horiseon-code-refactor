@@ -72,7 +72,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/*styles the services section articles individually*/
+/*styles the services class articles individually*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing  {
@@ -83,13 +83,13 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*styles images for the articles in the services section*/
+/*styles images for the articles in the services class*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img   {
     max-height: 200px;
 }
-/*styles headings for the articles in the services section*/
+/*styles headings for the articles in the services class*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -109,14 +109,14 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*styles headings for the articles in the benefits section*/
+/*styles headings for the articles in the benefits class*/
 .benefit-cost h3,
 .benefit-brand h3,
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*styles images for the articles in the benefits section*/
+/*styles images for the articles in the benefits class*/
 .benefit-brand img, 
 .benefit-cost img, 
 .benefit-lead img {
